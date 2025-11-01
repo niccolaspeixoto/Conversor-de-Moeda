@@ -102,7 +102,7 @@ section{
     color: #777777;
 }
 
-.currency-value{
+.currency-value-converted, .currency-value-to-convert{
     font-weight: 700;
     font-size: 24px;
     color: #000000;

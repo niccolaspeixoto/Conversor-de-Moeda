@@ -21,17 +21,15 @@
             Converter <b>de:</b>
             <select id="select-from">
                 <option>R$ Real Brasileiro</option>
-                <option>US$ Dólar</option>
-                <option>€ Euro</option>
             </select>
         </label>
 
         <label>
             Converter <b>para:</b>
             <select id="select-for">
-                <option>€ Euro</option>
-                <option>US$ Dólar Americano</option>
-                <option>R$ Real Brasileiro</option>
+                <option value="Dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="Real">R$ Real Brasileiro</option>
             </select>
         </label>
 
@@ -45,9 +43,9 @@
 
         <section>
             <div class="first-coin">
-                <img src="./assests/brasil 2.png" alt="Moeda a Converter">
-                <p class="currency">Real</p>
-                <p class="currency-value">R$ 0,00</p>
+                <img src="./assests/brasil 2.png" alt="Moeda a Converter" class="Real Brasileiro">
+                <p class="currency">Real Brasileiro</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
             
             <div >
@@ -55,9 +53,9 @@
             </div>
             
             <div class="second-coin">
-                <img src="./assests/dolar.png" alt="Moeda convertida">
-                <p class="currency">Real</p>
-                <p class="currency-value">US$ 0,00</p>
+                <img src="./assests/dolar.png" alt="Moeda convertida" class="currency-converted">
+                <p class="currency" id="currency-name">Dólares</p>
+                <p class="currency-value-converted">US$ 0,00</p>
             </div>
         </section>    
     </main>

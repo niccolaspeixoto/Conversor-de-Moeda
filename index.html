@@ -20,7 +20,10 @@
         <label>
             Converter <b>de:</b>
             <select id="select-from">
-                <option>R$ Real Brasileiro</option>
+                <option value="Real">R$ Real Brasileiro</option>
+                <option value="Dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="Libra">£ Libra</option>
             </select>
         </label>
 
@@ -30,6 +33,7 @@
                 <option value="Dolar">US$ Dólar Americano</option>
                 <option value="euro">€ Euro</option>
                 <option value="Real">R$ Real Brasileiro</option>
+                <option value="Libra">£ Libra</option>
             </select>
         </label>
 
@@ -43,9 +47,9 @@
 
         <section>
             <div class="first-coin">
-                <img src="./assests/brasil 2.png" alt="Moeda a Converter" class="Real Brasileiro">
-                <p class="currency">Real Brasileiro</p>
-                <p class="currency-value-to-convert">R$ 0,00</p>
+                <img src="./assests/brasil 2.png" alt="Moeda a Converter" class="currency-to-convert">
+                <p class="currency" id="currencyToConvert">Real Brasileiro</p>
+                <p class="currency-value-to-convert" >R$ 0,00</p>
             </div>
             
             <div >

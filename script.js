@@ -1,6 +1,18 @@
 const convertButton = document.querySelector(".convert-button");
 const currencySelect = document.querySelector("#select-for");
 const currencySelectFrom = document.querySelector("#select-from");
+/*dolar = 1
+libra = 1.32
+real = 0.19
+euro = 1.15*/
+
+taxas = {
+  "USD": 1,        // referência
+  "BRL": 5.60,
+  "EUR": 0.93,
+  "JPY": 150.00
+}
+
 
 function convertValues() {
   //função que funciona somente a partir da segundo select da section.

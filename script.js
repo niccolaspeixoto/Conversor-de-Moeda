@@ -54,6 +54,13 @@ function changeCurrency() {
     const currencyName = document.querySelector("#currency-name");
     const currencyImg = document.querySelector(".currency-converted");
 
+    if (currencySelectFrom.value == "dolar") {
+       currencyName.innerHTML =  "Dólar Americano"
+      currencyImg.src = "./assests/dolar.png"
+    }      
+
+
+
     if (currencySelect.value == "dolar") {
       currencyName.innerHTML =  "Dólar Americano"
       currencyImg.src = "./assests/dolar.png"
